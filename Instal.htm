@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://app.miften.com/special_page/iOS_tutorial.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="initial-scale=1, width=device-width">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<title>在 iOS 9 中运行企业版应用</title>
+	<style>
+		body{
+			background: #FFFFFF;
+			padding: 10px;
+		}
+		.left-grid{
+			padding: 40px;
+			display: inline-block;
+		}
+		.right-grid{
+			display: table-cell;
+			width: 500px;
+			vertical-align: middle;
+		}
+		.title{
+			font-size: 24px;
+			color: #1abc9c;
+			font-family: 微軟正黑體;
+		}
+		.line-grid a{
+			margin-right: 10px;
+		}
+		.line-grid{
+			margin-bottom: 40px;
+		}
+		.modal-body{
+			text-align: center;
+			padding: 50px;
+		}
+		span{
+			color: #2b22a5;
+		}
+		.modal-title{
+			padding: 20px;
+			font-family: 微軟正黑體;
+			color: #484848;
+		}
+		img{
+			width: 100%;
+			max-width: 400px;
+			display:block;
+			margin:10px 0;
+			border:1px solid rgba(0,0,0,0.2);
+		}
+		.content{
+		    padding: 10px;
+		}
+		.final{
+			font-size: 30px;
+			color: #ff0000;
+		}
+		.tri{width: 0;height: 0;border-style: solid;border-width: 6px 7px 6px 0;border-color: transparent #01abc9 transparent transparent;display:inline-block;margin-right:5px;}
+	</style></head>
+	
+	<body>
+		<a class="back" onclick="window.history.back();" href="javascript: void(0)"><span class="tri"></span>返回</a>
+		<div class="title"><h3>在 iOS 9 中运行企业版应用</h3></div>
+		<hr>
+		<div class="content">在 iOS 9 中，苹果对企业签名的应用运行时，进行了更严格的限制。因此，在 iOS 9 中，企业签名后的应用安装好之后，是无法直接启动的。默认情况下，在 iOS 9 中运行一款企业签名的应用时，会弹出类似这样的提示：</div>
+		<img src="images/step01.PNG">
+		<div class="content">可以看到，应用不再是像之前的版本那样直接启动，而是弹出了一个安全提示。此时，如果我们确认要运行的应用是安全的，可以按照以下步骤来设置：</div>
+		<div class="content">在系统中打开 <code>设置</code> - <code>通用</code> - <code>描述文件</code>（在iOS 9.2以后叫：<code>设备管理</code>），此时，可以看到有一个和刚刚弹出的提示中文字类似的描述文件。然后，点击对应描述文件进入后，再点击按钮 <code>信任</code>，来让系统允许拥有这个证书的应用运行。如图所示：</div>
+		<img src="images/step02.PNG">
+		<div class="content">之后，我们就可以回到桌面，重新运行刚才的应用，就会发现应用可以正常打开了。</div>
+		<div class="content">完整的步骤，如下图所示：</div>
+		<img src="images/step03.PNG">
+		<img src="images/step04.PNG">
+		<img src="images/step05.PNG">
+		<img src="images/step06.PNG">
+		<img src="images/step07.PNG">
+		<div class="content">如果您的手机出现以下提示：</div>
+		<img src="images/wrong.jpg">
+		<div class="content">请点击<code>完成</code>,并将手机设为<code>飞行模式</code>或断开网络15分钟，然后在此下载。</div>
+		<div class="final">最后，祝您游戏愉快！</div>
+	
+</body></html>

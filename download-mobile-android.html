@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>点球</title>
+	
+		<!--CSS-->
+        <link rel="stylesheet" href="css/mobile_index.css">
+        <!--CSS-->
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/config.js"></script>		
+		<script type="text/javascript">
+		if(navigator.userAgent.match(/iPhone|iPod/i)){            
+            location.href = "download-mobile-ios.html"  //手機版
+        }
+		// var head = document.getElementsByTagName('head')[0];
+		// var script = document.createElement('script');
+		// script.type = 'text/javascript';
+		// script.src= serveiceSite + '/Js/Link';
+		// head.appendChild(script);
+		$(document).ready(function(){		
+			//$('#appleImgB').attr('src', serveiceSite +'/Qr/Apple');
+             $("#down").click(function(){               
+                window.location = "https://client.qianqi315.com/app-0.3.0.6.apk"; 
+            });
+		});
+		function aa( con){				
+			$("#down").click(function(){
+				window.location = con.itmsServices;
+                //window.location = "itms-services://?action=download-manifest&url=https://client.qianqi315.com/Football_iOS.plist";
+			});
+		}
+		</script>
+</head>
+
+<body style="">
+
+<div class="outline" >
+        <div class="block_out" id="fsvs-body" style="transition: all 1s; transform: translate3d(0px, 0%, 0px);">
+<!--第一层 开始-->
+            <div class="dwl_out">
+				<div class="download_bg">
+				<div class="dwl_block">
+					<div class="dwl_iphone">
+					<img style="margin-left:50px;margin-top:100px;" src="imges/dwl_iphone.png" width="665" height="587" alt=""/>
+					<div class="dwl_detail">下载点球，迎战世足<br>一指轻松征服俄罗斯</div>
+					</div>
+					
+					<div class="dwl_sub">
+						<div class="dwl_btn">
+				   		<img style="display:block;margin:0 auto;" src="imges/and-icon.png" width="289" height="110" alt=""/>
+       					<div class="dwl_btn_block android" id="down">点击下载</div>
+				    	</div>
+				    
+				    	<div class="qr and">
+       					<img src="imges/ios-qr.jpg" width="260" height="260" alt="" id="appleImgB" />
+       					</div>
+       				</div>
+				    
+				</div>
+			  	</div>
+            </div>
+	<!--第一层 结束-->
+           
+    <!--第二层 开始-->           
+            <div class="per_block">
+				<div class="per_bg"><img style="opacity:0.15;" src="imges/per-iphone.png" width="944" height="1080" alt=""/></div>
+         		<div class="per_detail">
+         			<div class="per_word_block">
+         				<div class="per_tittle"><img style="margin-right:15px;" src="imges/soccer.png" width="43" height="43" alt=""/>完美支持移动互联网</div>
+         				<div class="per_word">全新技术打造原生态应用，<br>有别于其他传统平台让你用最顺畅的体验，<br>不论何时何地，均可畅游世界五大联赛</div>
+         			</div>
+         		</div>
+          </div>
+	<!--第二层 结束-->
+   
+    <!--第三层 開始-->        
+            <div class="sign_block">
+            	<div class="sign_detail">
+         			<div class="sign_word_block">
+         				<div class="sign_tittle"><img style="margin-right:15px;position:relative;" src="imges/soccer.png" width="55" height="55" alt=""/>全手势操作</div>
+         				<div class="sign_word">全应用无缝支持手势操作<br>只需要一根手指，让您畅游点球无障碍</div>
+         			</div>
+         		</div>
+	  			<div class="sign_iphone"></div>
+            </div>
+  <!--第三层 結束-->
+     
+     <!--第四层 開始-->        
+            <div class="live_block">
+            	<div class="sign_detail">
+         			<div class="sign_word_block">
+         				<div class="sign_tittle"><img style="margin-right:15px;position:relative;" src="imges/soccer.png" width="55" height="55" alt=""/>最完整的赛事与数据，<br>场场直播不遗漏</div>
+         				<div class="live_word">五大联赛零时差，<br>实时动画转播让您追踪赛事不延迟</div>
+         			</div>
+         		</div>
+            </div>
+  <!--第四层 結束-->
+     
+     <!--第五层 開始-->        
+            <div class="serve_block">
+            	<div class="sign_detail">
+         			<div class="sign_word_block">
+         				<div class="serve_tittle"><img style="margin-right:15px;position:relative;" src="imges/soccer.png" width="55" height="55" alt=""/>亲切专属管家，全年无休热情支持</div>
+         				<div class="serve_word">专业且亲切的专属个人管家，<br>全年无休的给您打理任何需求</div>
+         			</div>
+         		</div>
+            </div>
+  <!--第五层 結束-->
+      
+      <!--第六层 開始-->        
+            <div class="cheer_block">
+            	<div class="cheer_detail">
+            		<div class="cheer_word">立即扫码下载，点球与您一起迎战世足，征服俄罗斯!!</div>
+            	</div>
+            </div>
+  <!--第六层 結束-->
+       </div>
+        </div>
+
+
+
+</body>
+</html>
